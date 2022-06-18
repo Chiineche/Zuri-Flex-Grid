@@ -49,10 +49,10 @@ body{
 
 .grid{
 	display: grid;
-	margin: auto;
-	width: 80%;
-	/*height: 600px;*/
-	grid-auto-rows: minmax(100px, auto);
+	margin: 150px auto;
+	width: 700px;
+	height: 100%;
+	/* grid-auto-rows: minmax(100px, auto);*/
 	grid-gap: 0.5rem;
 	grid-template-rows: 210px 90px 120px;
 	grid-template-columns: 300px 90px 240px;
