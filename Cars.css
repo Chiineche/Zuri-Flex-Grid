@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	background-color: hsl(0, 0%, 95%);
+}
+
+.logo{
+	font-size: x-large;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.navbar .container{
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	background-color: hsl(179, 100%, 13%);
+	color: white;
+	align-items: center;
+
+}
+
+.navbar ul{
+	display: flex;
+	list-style: none;
+	color: white;
+	margin-right: 10px;
+}
+
+.navbar li{
+	margin-left: 10px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+/*Body Styling*/
+
+.brands .container{
+	display: flex;
+	width: 800px;
+	height: 400px;
+	margin: 100px auto;
+}
+
+.box{
+	border:0;
+	padding: 25px;
+}
+
+.one{
+	background-color: hsl(31, 77%, 52%);
+	border-radius: 10px 0 0 10px;
+}
+.two{
+	background-color: hsl(184, 100%, 22%);
+}
+.three{
+	background-color: hsl(179, 100%, 13%);
+	border-radius: 0 10px 10px 0;
+}
+
+.one button{
+	color: hsl(31, 77%, 52%);
+}
+.two button{
+	color: hsl(184, 100%, 22%);
+}
+.three button{
+	color: hsl(179, 100%, 13%);
+}
+
+.box h2{
+	color: hsl(0, 0%, 95%);
+}
+
+.box button{
+	background-color: hsl(0, 0%, 95%);
+	border: 0;
+	border-radius: 15px;
+	padding: 10px;
+	width: 50%;
+	margin-top: 100px;
+	cursor: pointer;
+
+}
+
+.box h2{
+	margin: 20px 0;
+	font-weight: 700;
+	font-family: 'big shoulders display', cursive;
+}
+
+.box p{
+	color: hsl(0, 0%, 95%);
+	font-weight: 400;
+	font-family: 'lexend deca', sans-serif;
+}
+
+
+
+.one button:active{
+	background-color: inherit;
+	border: thin solid white;
+	color: white;
+}
+
+.two button:active{
+	background-color: inherit;
+	border: thin solid white;
+	color: white;
+}
+
+
+.three button:active{
+	background-color: inherit;
+	border: thin solid white;
+	color: white;
+}
+
+
+
+
+
+footer{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+
+/*@media (max-width: 375px){
+
+	.brands .container {
+		display: block;
+		flex-direction: column;
+
+
+	}
+
+	.box{
+		border-radius: 5px;
+	}
+
+}
+
+@media (max-width: 992px){
+	.brands .container{
+		display: flex;
+		flex-direction: row;
+		
+	}
+}
+
+*/

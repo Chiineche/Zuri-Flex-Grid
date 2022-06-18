@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(18, 18, 30);
+}
+
+/*Navigation Styling Start*/
+.logo{
+	font-size: x-large;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.navbar .container{
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	background-color: crimson;
+	color: white;
+	align-items: center;
+
+}
+
+.navbar ul{
+	display: flex;
+	list-style: none;
+	color: white;
+	margin-right: 10px;
+}
+
+.navbar li{
+	margin-left: 10px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*Navigation Styling End*/
+
+
+.grid{
+	display: grid;
+	margin: auto;
+	width: 80%;
+	/*height: 600px;*/
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 0.5rem;
+	grid-template-rows: 210px 90px 120px;
+	grid-template-columns: 300px 90px 240px;
+
+	grid-template-areas: 
+	"a a b"
+	"c d d"
+	"c e e";
+}
+
+.item{
+	color: white;
+	border: thin red solid;
+	background-color: red;
+}
+
+.one{
+	background-color: rgb(237, 69, 35);
+	border: 0;
+	border-radius: 5px;
+	grid-area: a;
+}
+
+.three{
+	background-color: rgb(39, 197, 73);
+	border: 0;
+	border-radius: 5px;
+	grid-area: c;
+}
+
+
+.two{
+	background-color:rgb(208, 190, 30);
+	border: 0;
+	border-radius: 5px;
+	grid-area: b;
+}
+
+.four{
+	grid-area: d;
+	background-color: rgb(18, 126, 159);
+	border: 0;
+	border-radius: 5px;
+}
+
+.five{
+	grid-area: e;
+	background-color: rgb(18, 126, 159);
+	border: 0;
+	border-radius: 5px;
+}
